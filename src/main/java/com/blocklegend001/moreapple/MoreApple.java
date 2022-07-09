@@ -10,6 +10,9 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+
+import java.util.stream.Collectors;
+
 @Mod(MoreApple.MOD_ID)
 public class MoreApple
 {
@@ -17,7 +20,8 @@ public class MoreApple
 
     public static final String MOD_ID = "moreapple";
 
-    public MoreApple() {
+    public MoreApple()
+    {
 
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
@@ -30,6 +34,7 @@ public class MoreApple
 
     private void setup(final FMLCommonSetupEvent event)
     {
+
         LOGGER.info("HELLO FROM PREINIT");
 
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
