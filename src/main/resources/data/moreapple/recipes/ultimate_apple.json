@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "GHJ"
+  ],
+  "key": {
+    "A": {
+      "item": "moreapple:iron_apple"
+    },
+    "B": {
+      "item": "moreapple:lapis_apple"
+    },
+    "C": {
+      "item": "moreapple:redstone_apple"
+    },
+    "D": {
+      "item": "minecraft:golden_apple"
+    },
+    "E": {
+      "item": "minecraft:nether_star"
+    },
+    "F": {
+      "item": "minecraft:golden_apple"
+    },
+    "G": {
+      "item": "moreapple:diamond_apple"
+    },
+    "H": {
+      "item": "moreapple:emerald_apple"
+    },
+    "J": {
+      "item": "moreapple:netherite_apple"
+    }
+  },
+  "result": {
+    "item": "moreapple:ultimate_apple"
+  }
+}
